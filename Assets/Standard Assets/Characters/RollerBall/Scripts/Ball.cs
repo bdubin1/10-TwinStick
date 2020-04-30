@@ -24,6 +24,7 @@ namespace UnityStandardAssets.Vehicles.Ball
 
         public void Move(Vector3 moveDirection, bool jump)
         {
+            //print("Move Method WAS called");
             // If using torque to rotate the ball...
             if (m_UseTorque)
             {

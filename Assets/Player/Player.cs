@@ -11,7 +11,8 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log ("H: " + CrossPlatformInputManager.GetAxis("Horizontal"));
+        Debug.Log("reg input H: " + Input.GetAxis("Horizontal"));
+        Debug.Log ("H: " + CrossPlatformInputManager.GetAxis("Horizontal"));
 		Debug.Log ("V: " + CrossPlatformInputManager.GetAxis("Vertical"));
 	}
 }

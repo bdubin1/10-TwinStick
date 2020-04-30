@@ -9,8 +9,11 @@ public class CameraPan : MonoBehaviour {
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
 	}
+    private void Update()
+    {
 
-	void LateUpdate () {
+    }
+    void LateUpdate () {
 		transform.LookAt (player.transform);
 	}
 }
